@@ -29,6 +29,7 @@ $(document).ready(function () {
     } else {
         totalPrice = totalPriceStorage;
         basket = storageBasket;
+    }
 
         function createBasket() {
             for (i; i < storageBasket.length; i++) {
@@ -108,5 +109,4 @@ $(document).ready(function () {
             $('.overlay').hide();
             $('.popup__wrapper').hide();
         })
-    }
 })
